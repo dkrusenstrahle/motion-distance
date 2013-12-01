@@ -1,6 +1,6 @@
 module Motion
   class Distance
-    attr_accessor :activity_type
+    attr_accessor :activity_type, :location_accuracy
 
     def get(&block)
       @callback = block
